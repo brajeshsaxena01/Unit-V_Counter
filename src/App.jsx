@@ -8,9 +8,9 @@ export default function App() {
   // const handleChange=(value)=>{
   //   setCounter(counter+value)
   // }
-  // if(counter>=10){
-  //   return <h1>Counter reach maximum value</h1>
-  // }
+  if (counter >= 10) {
+    return <h1>Counter reach maximum value</h1>;
+  }
 
   return (
     <div className="App">
